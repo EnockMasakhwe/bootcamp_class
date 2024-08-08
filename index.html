@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Boot Camp 4</title>
+  </head>
+  <body>
+    <br><br>
+    <div class="header">
+      <h1 id="header"></h1>
+      <h1 id="header2">Welcome To Learning Lions Bootcamp Cohort 4</h1>
+    </div>
+    <br>
+    <div id="container">
+      <img src="IMG-20240619-WA0002.jpg" alt="Group Photo" id="image" />
+      <p id="paragraph" class="hidden">
+        "This is Bootcamp 4 by Learning Lions, following the Mobile LEAP
+        training, marking its second phase. Spanning 8 weeks, it offers a more
+        rigorous curriculum than Mobile LEAP, inviting only 20 top-performing
+        students from that program based solely on academic merit. Participants
+        specialize in either Computer Creative or Tech, honing their skills
+        deeply within their chosen field. The program also includes training in
+        freelancing and essential soft skills crucial for freelance success.
+        Graduates of this phase are eligible for the Advanced Track, the final
+        phase of our training program. Our current cohort includes students from
+        Mobile LEAP 5 and 6."
+      </p>
+    </div>
+    <br>
+    <button id="toggleButton">Meet Our Trainees</button><br><br>
+    <div id="traineesContainer" class="hidden">
+        <ul>
+            <li>Enock Eliaro - Tech</li>
+            <li>Mary Gorefty - Creative</li>
+            <li>Mwangi Kariuki - Tech</li>
+            <li>Nancy Kaituko - Creative</li>
+            <li>Meshack Immanuel - Tech</li>
+            <li>Ruth Lotini - Creative</li>
+            <li>Erick Williams - Tech</li>
+            <li>Rael Nandi - Creative</li>
+            <li>Kelvin Ekuwam - Tech</li>
+            <li>Ruth Ekuchei - Creative</li>
+            <li>Philimon Elailo - Tech</li>
+            <li>Ekuwom Ekai - Creative</li>
+            <li>Velma Nabe - Tech</li>
+            <li>Faith Nang'ole - Creative</li>
+            <li>Betty Lemuya - Tech</li>
+            <li>Deborah Ikwel - Creative</li>
+            <li>Stellah Korobe - Tech</li>
+            <li>Alek Alaak - Tech</li>
+            <li>Sandra Maide - Tech</li>
+            <li>Deruka Apat - Tech</li>
+        </ul>
+    </div>
+    <br>
+
+    <div id="form">
+      <h2 class="header3">Contact Form</h2>
+      <form class="contactForm" action="">
+        <br><br>
+        <label for="name" id="fname">Name:</label><br>
+        <input type="text" id="name" name="name">
+        <br /><br />
+
+        <label for="email" id="femail">Email:</label><br>
+        <input type="email" id="email" name="email">
+        <br /><br />
+
+        <label for="phoneNumber" id="fphone">Phone Number:</label><br>
+        <input type="text" id="phoneNumber" name="phoneNumber">
+        <br /><br />
+
+        <label for="password" id="fpassword">Password:</label><br>
+        
+        <input type="password" id="password" name="password">
+        <br /><br />
+
+        <label for="confirmPassword" id="fconfirm">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <br /><br />
+
+        <button type="submit" id="submit">Submit</button>
+        <br><br>
+      </form>
+    </div>
+    <br><br>
+
+    <div id="congratulations">
+      <button id="showCongratulations">Show Congratulations Message</button>
+      <p id="congratsMessage" class="hidden">Congratulations! You have successfully created an account.</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+    
+}
+
+#container {
+    position: relative;
+}
+
+#image {
+    width: 100%; /* Adjust to fit your layout */
+    display: block;
+}
+
+#image.hidden {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events to make the image not clickable */
+}
+
+#paragraph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid green;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+#paragraph.visible {
+    display: block;
+    pointer-events: auto; /* Enable pointer events to make the paragraph clickable */
+
+}
+
+#toggleButton {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+#toggleButton:hover {
+    background-color: green;
+    color: yellow;
+}
+
+#traineesContainer {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#traineesContainer ul {
+    list-style: none;
+}
+#traineesContainer.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#form {
+    width:50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    text-align: center;
+
+    
+}
+
+.contactForm {
+    width: 75%;
+    background-color: green; /* Example color, adjust as needed */
+    border: none;
+    border-radius: 10px;
+    margin-left: 120px;
+    
+}
+
+.error {
+    color: red;
+    
+}
+
+#fname, #femail, #fphone, #fpassword, #fconfirm {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#name, #email, #phoneNumber, #password, #confirmPassword {
+    width: 65%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#submit {
+    font-size: 25px;
+    font-family: Arial;
+    background-color: white;/* Example color, adjust as needed */
+    color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+}
+
+#submit:hover {
+    background-color: yellow;
+    color: green;
+}
+.header3 {
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    color: green;
+
+}
+
+
+.hidden {
+    display: none;
+  }
+  
+  #congratulations {
+    text-align: center;
+    margin-bottom: 40px;
+    
+  }
+  
+  #showCongratulations {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #congratsMessage {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+    color: darkgreen;
+    font-size: 18px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
